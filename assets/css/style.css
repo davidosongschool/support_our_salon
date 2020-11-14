@@ -1,0 +1,322 @@
+/* CSS MENU 
+0. Generics 
+1. Logo 
+2. Salon Card
+3. Mobile menu
+4. message
+**/
+
+
+/* 0. Generics */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&display=swap');
+
+a {
+color: inherit;
+text-decoration: none !important;
+}
+
+body {
+    background: #fff;
+
+}
+
+.text-blue {
+    color: #222630;
+
+}
+
+
+
+.choose-county-bar {
+height: 100px;
+width: 100%;
+background-color: #222630;
+position:relative;
+}
+
+
+
+.choose-county-bar-mobile {
+    width: 100%;
+    background-color: #222630;
+    position:relative;
+    color: #fff;
+
+    }
+    
+
+.select-county-btn-mobile {
+width: 200px;
+height: 40px;
+line-height: 40px;
+background-color: #fff;
+color: #222630;
+cursor: pointer;
+margin: 0 auto;
+}
+
+
+
+.select-county-text {
+color: #fff;
+}
+
+
+.pick {
+height: 30px !important;
+line-height: 30px !important;
+width: 100%;
+margin: 0 auto;
+color: #000;
+background-color: #fff;
+border: none !important;
+}
+
+#resultstotal {
+color: #222630;
+font-size: 24px;
+
+}
+
+
+/* 1. Logo */
+.logo {
+width: 250px;
+height: 160px;
+}
+
+body {
+font-family: Lato;
+font-weight: 300;
+
+}
+
+
+
+/* 2. Salon Card */
+
+.contain-salon{
+height: 270px;
+width: 100%;
+position: relative;
+border-radius: 10px;
+text-align: center;
+margin-bottom: 80px;
+
+}
+
+.screenshot {
+width: 100%;
+height: 80%;
+margin: 0 auto;
+border-radius: 2px;
+
+}
+
+.contain-info{
+max-width: 70%;
+min-width: 70%;
+text-align: left;
+margin: 0 auto;
+font-weight: bold;
+
+}
+
+
+.contain-location{
+    width: 25%;
+    text-align: right;
+    margin: 0 auto;
+    font-size: 14px;
+
+    }
+    
+
+/* Tags */
+
+    .county-tag {
+        
+        background-color: #222630;
+        color: #fff;
+        text-align: center;
+        border-radius: 3px;
+        width: 100%;
+
+    }
+ 
+
+    /* Desktop Menu */
+    .desktop-menu {
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        height: 40px;
+        width: 100%;
+        margin: 0 auto;
+        line-height: 40px;
+    }
+
+    .list-inline-item {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
+    /* Mobile Menu */
+
+    .contain-mobile-menu {
+        height: calc(100vh);
+        width: 300px;
+        display: none;
+        position: fixed;
+        z-index: 199999999 !important;
+        background-color: #222630;
+        color: #fff !important;
+
+        
+    }
+
+    .powered-by {
+        position: absolute;
+        bottom: 1%;
+        color: #000;
+        text-align: center;
+        font-weight: bold;
+        margin: 0 auto;
+    }
+
+
+
+
+    .mob-menu-logo {
+        width: 80%;
+    }
+
+
+
+    .contain-burger {
+        position: relative;
+        
+        }
+        
+        .mobile-menu-burger {
+            position: absolute;
+            top: 50%; left: 90%;
+            transform: translate(-50%,-50%);
+            cursor: pointer;
+            font-size: 24px;
+        
+        }
+
+        .support-local {
+            position: absolute;
+            font-size: 3vw;
+            color: #fff;
+            top: 50%; left: 10%;
+            transform: translate(-50%,-50%);
+            margin-left: 40px;
+
+        }
+
+        .support-local-mobile-text {
+
+            font-size: 8vw;
+            color: #fff;
+        }
+        
+
+        .mobile-header {
+            height: 150px;
+            background-color: #fff;
+            z-index: 1999999 !important;
+        }
+
+        .desktop-header {
+        background-color: #fff;
+        z-index: 1999999 !important;
+        height: 200px;
+      
+        }
+
+        .contain-menu-links {
+            position: relative;
+        }
+
+        .menu-links {
+
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        
+
+        .nav-link {
+            color: #fff !important;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 18px;
+
+        }
+
+        .submit-a-salon-btn {
+            width: 70%;
+            height: 40px;
+            line-height: 40px;
+            background-color: #D6A47C;
+            color: #fff;
+            margin: 0 auto;
+        }
+
+
+/* 4. Message */ 
+
+.contain-message {
+width: 250px;
+height: 60px;
+line-height: 60px;
+text-align: center;
+position: fixed;
+top: 90vh;
+right: 0;
+background-color: #D6A47C;
+color: #fff;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+   
+ 
+.modal-body {
+
+    background-color: #fff;
+}
+
+
+ 
+
+/* Media Queries */
+@media (max-width: 767.98px) { 
+
+.screenshot {
+    width: 90%;
+}
+
+.contain-info{
+    max-width: 45%;
+    min-width: 45%;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: bold;
+    }
+
+    .contain-location{
+        width: 45%;
+        text-align: right;
+        margin: 0 auto;
+    
+        }
+    
+    
+
+ }
