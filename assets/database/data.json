@@ -4,338 +4,338 @@
             "Name": "Trua Hair",
             "County": "Dublin",
             "Link": "https://truahair.ie/shop-front/",
-            "Image": "assets/images/salons/trua-min.png"
+            "Image": "/assets/images/salons/trua-min.png"
         },
         {
             "Name": "Berlin Hair Lounge",
             "County": "Carlow",
             "Link": "https://berlinhairlounge.com/shop-full-width/",
-            "Image": "assets/images/salons/berlin.png"
+            "Image": "/assets/images/salons/berlin.png"
         },
         {
             "Name": "Beautique Skin & Beauty Clinic",
             "County": "Westmeath",
             "Link": "https://beautiqueskinshop.com/shop/",
-            "Image": "assets/images/salons/beautique.png"
+            "Image": "/assets/images/salons/beautique.png"
         },
         {
             "Name": "Enchant Beauty & Sanctuary",
             "County": "Limerick",
             "Link": "https://enchant.ie/shop-online/",
-            "Image": "assets/images/salons/enchant.png"
+            "Image": "/assets/images/salons/enchant.png"
         },
         {
             "Name": "Aviary Beauty and Hair",
             "County": "Kildare",
             "Link": "https://aviarybeauty.ie/shop-front/",
-            "Image": "assets/images/salons/aviary.png"
+            "Image": "/assets/images/salons/aviary.png"
         },
         {
             "Name": "3° Degrees",
             "County": "Cork",
             "Link": "https://3degrees.ie/shop/",
-            "Image": "assets/images/salons/3degrees.png"
+            "Image": "/assets/images/salons/3degrees.png"
         },
         {
             "Name": "Imagez Hair",
             "County": "Cork",
             "Link": "https://imagezhair.ie/shop/",
-            "Image": "assets/images/salons/imagez.png"
+            "Image": "/assets/images/salons/imagez.png"
         },
 
         {
             "Name": "Crown Kilkenny",
             "County": "Kilkenny",
             "Link": "https://crownhairandbeauty.ie/shop/",
-            "Image": "assets/images/salons/crown.png"
+            "Image": "/assets/images/salons/crown.png"
         },
         {
             "Name": "La Mode Hair & Beauty",
             "County": "Dublin, Meath",
             "Link": "https://lamode.ie/shop/",
-            "Image": "assets/images/salons/lamode.png"
+            "Image": "/assets/images/salons/lamode.png"
         },
         {
             "Name": "Revo Hair & Beauty",
             "County": "Cork",
             "Link": "https://revohairandbeauty.ie/shop/",
-            "Image": "assets/images/salons/revo.png"
+            "Image": "/assets/images/salons/revo.png"
         },
         {
             "Name": "Bankz Hair & Beauty",
             "County": "Laois",
             "Link": "https://bankzhairgroup.ie/shop/",
-            "Image": "assets/images/salons/bankz.png"
+            "Image": "/assets/images/salons/bankz.png"
         },
         {
             "Name": "Joanne Woods Beauty",
             "County": "Louth",
             "Link": "https://joannewoodsbeauty.com/shop/",
-            "Image": "assets/images/salons/joanne.png"
+            "Image": "/assets/images/salons/joanne.png"
         },
         {
             "Name": "Celebrate Skin",
             "County": "Kildare",
             "Link": "https://celebrateskin.ie/shop/",
-            "Image": "assets/images/salons/celebrate.png"
+            "Image": "/assets/images/salons/celebrate.png"
         },
         {
             "Name": "Sara's Hair and Beauty Lounge",
             "County": "Kildare",
             "Link": "https://hairandbeautylounge.ie/shop/",
-            "Image": "assets/images/salons/sara.png"
+            "Image": "/assets/images/salons/sara.png"
         },
         {
             "Name": "Priscilla's Beauty Clinic",
             "County": "Meath",
             "Link": "https://priscillasbeauty.ie/shop/",
-            "Image": "assets/images/salons/priscilla.png"
+            "Image": "/assets/images/salons/priscilla.png"
         },
         {
             "Name": "Vaughan Reid",
             "County": "????",
             "Link": "https://vaunreid.com/shop/",
-            "Image": "assets/images/salons/vaun.png"
+            "Image": "/assets/images/salons/vaun.png"
         },
         {
             "Name": "L'OmBre Hair and Beauty Salon",
             "County": "Dublin",
             "Link": "https://lombre.ie/shop/",
-            "Image": "assets/images/salons/lombre.png"
+            "Image": "/assets/images/salons/lombre.png"
         },
         {
             "Name": "Gary Patrick Hair Design",
             "County": "Kildare",
             "Link": "https://garypatrickhair.ie/shop-online-at-gary-patrick-hair-design/",
-            "Image": "assets/images/salons/gary.png"
+            "Image": "/assets/images/salons/gary.png"
         },
         {
             "Name": "Claire's Salon",
             "County": "Cork",
             "Link": "https://cshairsalon.ie/shop/",
-            "Image": "assets/images/salons/claires.png"
+            "Image": "/assets/images/salons/claires.png"
         },
         {
             "Name": "Allure Hair & Beauty",
             "County": "Mayo",
             "Link": "https://allurehairdressing.ie/shop/",
-            "Image": "assets/images/salons/allure.png"
+            "Image": "/assets/images/salons/allure.png"
         },
         {
             "Name": "Head Office Hairdressing",
             "County": "Kildare",
             "Link": "https://hoffice.ie/shop-online/",
-            "Image": "assets/images/salons/headoffice.png"
+            "Image": "/assets/images/salons/headoffice.png"
         },
         {
             "Name": "Urban Angels Hair & Hair Extension",
             "County": "Limerick",
             "Link": "https://urbanangelshairsalon.com/shop-online/",
-            "Image": "assets/images/salons/urban-angles.png"
+            "Image": "/assets/images/salons/urban-angles.png"
         },
         {
             "Name": "Colours Hair & Beauty Clinic",
             "County": "Cork",
             "Link": "https://colourshairteam.ie/shop/",
-            "Image": "assets/images/salons/colourshair.png"
+            "Image": "/assets/images/salons/colourshair.png"
         },
         {
             "Name": "Serenity Hair and Beauty Clinic",
             "County": "Kildare",
             "Link": "https://serenityhairandbeautyclane.com/shop/",
-            "Image": "assets/images/salons/serenity.png"
+            "Image": "/assets/images/salons/serenity.png"
         },
         {
             "Name": "Eden Treatment Rooms",
             "County": "Kildare",
             "Link": "https://edentreatmentrooms.ie/shop-front/",
-            "Image": "assets/images/salons/eden.png"
+            "Image": "/assets/images/salons/eden.png"
         },
         {
             "Name": "House of Colour",
             "County": "Dublin",
             "Link": "https://houseofcolour.ie/online-shop-dublin/",
-            "Image": "assets/images/salons/houseofcolour.png"
+            "Image": "/assets/images/salons/houseofcolour.png"
         },
         {
             "Name": "Renaissance Hair & Beauty Bar",
             "County": "Louth",
             "Link": "https://renaissancehairandbeautybar.com/shop/",
-            "Image": "assets/images/salons/renaissance.png"
+            "Image": "/assets/images/salons/renaissance.png"
         },
         {
             "Name": "Carrie's Beauty Salon",
             "County": "Westmeath",
             "Link": "https://carriesbeautysalon.ie/shop/",
-            "Image": "assets/images/salons/carries.png"
+            "Image": "/assets/images/salons/carries.png"
         },
         {
             "Name": "Howth Haven Beauty",
             "County": "Dublin",
             "Link": "https://howthhavenbeauty.ie/shop/",
-            "Image": "assets/images/salons/howth.png"
+            "Image": "/assets/images/salons/howth.png"
         },
         {
             "Name": "House Hair",
             "County": "Wexford",
             "Link": "https://househairandbeauty.ie/shop/",
-            "Image": "assets/images/salons/house.png"
+            "Image": "/assets/images/salons/house.png"
         },
         {
             "Name": "Sandra's Hair Studio",
             "County": "Carlow",
             "Link": "https://sandrashairstudio.ie/shop/",
-            "Image": "assets/images/salons/sandras.png"
+            "Image": "/assets/images/salons/sandras.png"
         },
         {
             "Name": "Luminaire Hair",
             "County": "Galway",
             "Link": "https://luminairehair.ie/shop/",
-            "Image": "assets/images/salons/luminaire.png"
+            "Image": "/assets/images/salons/luminaire.png"
         },
         {
             "Name": "The Hair & Beauty Hub",
             "County": "Limerick",
             "Link": "https://thehairandbeautyhub.ie/shop-front/",
-            "Image": "assets/images/salons/hub.png"
+            "Image": "/assets/images/salons/hub.png"
         },
         {
             "Name": "Avail Hair and Beauty",
             "County": "Dublin",
             "Link": "https://availatavoca.ie/shop/",
-            "Image": "assets/images/salons/avail.png"
+            "Image": "/assets/images/salons/avail.png"
         },
         {
             "Name": "Mint MediSpa",
             "County": "Kilkenny",
             "Link": "https://mintkilkenny.com/shop/",
-            "Image": "assets/images/salons/mint.png"
+            "Image": "/assets/images/salons/mint.png"
         },
         {
             "Name": "Glow Beauty Clinic",
             "County": "Dublin",
             "Link": "https://glowbeauty.ie/shop/",
-            "Image": "assets/images/salons/glow.png"
+            "Image": "/assets/images/salons/glow.png"
         },
         {
             "Name": "Bespoke Hair",
             "County": "Cork",
             "Link": "https://bespokehair.ie/shop/",
-            "Image": "assets/images/salons/bespoke.png"
+            "Image": "/assets/images/salons/bespoke.png"
         },
         {
             "Name": "Kida Hair",
             "County": "Cork",
             "Link": "https://kidahair.ie/shop/",
-            "Image": "assets/images/salons/kida.png"
+            "Image": "/assets/images/salons/kida.png"
         },
         {
             "Name": "The Cutting Edge Cashel",
             "County": "Tipperary",
             "Link": "https://thecuttingedgecashel.ie/shop/",
-            "Image": "assets/images/salons/cuttingedge.png"
+            "Image": "/assets/images/salons/cuttingedge.png"
         },
         {
             "Name": "Independent Hair Co",
             "County": "Cork",
             "Link": "https://independenthairco.ie/shop/",
-            "Image": "assets/images/salons/independent.png"
+            "Image": "/assets/images/salons/independent.png"
         },
         {
             "Name": "Primary Colours Hair Studio",
             "County": "Laois",
             "Link": "https://primarycolours.ie/primary-colours-shop/",
-            "Image": "assets/images/salons/primarycolours.png"
+            "Image": "/assets/images/salons/primarycolours.png"
         },
         {
             "Name": "The Hair Shop",
             "County": "Limerick",
             "Link": "https://thehairshoplimerick.ie/shop/",
-            "Image": "assets/images/salons/hairshop.png"
+            "Image": "/assets/images/salons/hairshop.png"
         },
         {
             "Name": "His & Hers Hair Salon",
             "County": "Wexford",
             "Link": "https://hisandhers.ie/shop/",
-            "Image": "assets/images/salons/hisandhers.png"
+            "Image": "/assets/images/salons/hisandhers.png"
         },
         {
             "Name": "Beauty by Charleen",
             "County": "Donegal",
             "Link": "https://beautybycharleen.ie/beauty-by-charleen-shop-front/",
-            "Image": "assets/images/salons/charleen.png"
+            "Image": "/assets/images/salons/charleen.png"
         },
         {
             "Name": "Mark Vincent Hair & Beauty",
             "County": "Cork",
             "Link": "https://markvincenthair.com/shop/",
-            "Image": "assets/images/salons/markv.png"
+            "Image": "/assets/images/salons/markv.png"
         },
         {
             "Name": "Exhale & Relax Beauty",
             "County": "Waterford",
             "Link": "https://exhaleandrelaxbeauty.ie/shop/",
-            "Image": "assets/images/salons/exhale.png"
+            "Image": "/assets/images/salons/exhale.png"
         },
         {
             "Name": "Gerard Paul Hairdressing",
             "County": "Dublin, Kildare",
             "Link": "https://gerardpaul.ie/shop/",
-            "Image": "assets/images/salons/exhale.png"
+            "Image": "/assets/images/salons/exhale.png"
         },
         {
             "Name": "The Graduate Hair Salon",
             "County": "Dublin",
             "Link": "https://graduatehairsalon.ie/shop/",
-            "Image": "assets/images/salons/graduate.png"
+            "Image": "/assets/images/salons/graduate.png"
         },
         {
             "Name": "Fuchsia Hair and Beauty",
             "County": "Dublin",
             "Link": "https://fuchsiahairandbeautyboutique.com/shop/",
-            "Image": "assets/images/salons/fuchsia.png"
+            "Image": "/assets/images/salons/fuchsia.png"
         },
         {
             "Name": "Tangles Hair Design",
             "County": "Kildare",
             "Link": "https://tangleshairdesignclane.com/shop/",
-            "Image": "assets/images/salons/tangles.png"
+            "Image": "/assets/images/salons/tangles.png"
         },
         {
             "Name": "Collab Hair & Makeup",
             "County": "Tipperary",
             "Link": "https://collabhair.ie/shop/",
-            "Image": "assets/images/salons/collab.png"
+            "Image": "/assets/images/salons/collab.png"
         },
         {
             "Name": "Jeff Devine Hair & Beauty",
             "County": "Cork",
             "Link": "https://jeffdevine.ie/shop/",
-            "Image": "assets/images/salons/jeff.png"
+            "Image": "/assets/images/salons/jeff.png"
         },
         {
             "Name": "Rua Hair salon",
             "County": "Dublin",
             "Link": "https://ruahair.ie/shop/",
-            "Image": "assets/images/salons/rua.png"
+            "Image": "/assets/images/salons/rua.png"
         },
         {
             "Name": "Ravens Hair Salon",
             "County": "Limerick",
             "Link": "https://ravenshairsalon.ie/shop-front/",
-            "Image": "assets/images/salons/ravens.png"
+            "Image": "/assets/images/salons/ravens.png"
         },
         {
             "Name": "Anna Danielle Hair & Beauty",
             "County": "Kilkenny",
             "Link": "https://annadanielles.ie/anna-danielles-shop/",
-            "Image": "assets/images/salons/anna.png"
+            "Image": "/assets/images/salons/anna.png"
         },
         {
             "Name": "Paris Lover",
             "County": "Dublin",
             "Link": "https://parislover.ie/shop/",
-            "Image": "assets/images/salons/paris.png"
+            "Image": "/assets/images/salons/paris.png"
         }
     ]
 }
