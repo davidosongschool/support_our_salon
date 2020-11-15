@@ -4,6 +4,7 @@
 2. Salon Card
 3. Mobile menu
 4. message
+5. ABout
 **/
 
 
@@ -14,6 +15,11 @@
 a {
 color: inherit;
 text-decoration: none !important;
+}
+
+
+a:hover {
+color: #222630;
 }
 
 body {
@@ -27,6 +33,15 @@ body {
 }
 
 
+.row {
+margin: 0;
+}
+
+
+.unstyle-btn {
+    background-color: none !important;
+    border: none !important;
+}
 
 .choose-county-bar {
 height: 100px;
@@ -44,16 +59,49 @@ position:relative;
     color: #fff;
 
     }
+
+    .contain-search-btn {
+position: relative;
+
+    }
     
 
+    .select-county-btn-desktop {
+        width: 300px;
+        height: 60px;
+        line-height: 60px;
+        background-color: #0FA3B1;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 10px;
+        position: absolute;
+          top: 50%;
+          right: 5%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          font-size: 30px;
+        }
+
 .select-county-btn-mobile {
-width: 200px;
-height: 40px;
-line-height: 40px;
-background-color: #fff;
-color: #222630;
+width: 300px;
+height: 60px;
+line-height: 60px;
+background-color: #0FA3B1;
+color: #fff;
 cursor: pointer;
+border-radius: 10px;
 margin: 0 auto;
+  font-size: 30px;
+
+}
+
+#resultstotal {
+    
+    font-weight: bold;
+}
+
+.contain-desktop-header {
+    font-weight: 400;
 }
 
 
@@ -82,8 +130,8 @@ font-size: 24px;
 
 /* 1. Logo */
 .logo {
-width: 250px;
-height: 160px;
+width: 210px;
+height: 130px;
 }
 
 body {
@@ -93,6 +141,16 @@ font-weight: 300;
 }
 
 
+.contain-top-panel {
+    background-color: #21252A;
+    color: #fff;
+}
+
+
+.remove-padding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 
 /* 2. Salon Card */
 
@@ -101,7 +159,7 @@ height: 270px;
 width: 100%;
 position: relative;
 border-radius: 10px;
-text-align: center;
+
 margin-bottom: 80px;
 
 }
@@ -141,7 +199,8 @@ font-weight: bold;
         color: #fff;
         text-align: center;
         border-radius: 3px;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
 
     }
  
@@ -161,6 +220,13 @@ font-weight: bold;
         margin-right: 30px;
     }
 
+    .menu-desktop-item {
+        width: 200px;
+        border-right: 1px solid lightgrey;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+    }
 
     /* Mobile Menu */
 
@@ -172,8 +238,25 @@ font-weight: bold;
         z-index: 199999999 !important;
         background-color: #222630;
         color: #fff !important;
+        position: fixed;
 
         
+    }
+
+    .contain-desktop-menu {
+        border-top: 1px solid lightgrey;
+        border-bottom: 1px solid lightgrey;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      
+       
+    }
+
+
+
+
+    .mobile-header {
+        border-bottom: 1px solid #EFCDCF;
     }
 
     .powered-by {
@@ -194,15 +277,10 @@ font-weight: bold;
 
 
 
-    .contain-burger {
-        position: relative;
-        
-        }
+
         
         .mobile-menu-burger {
-            position: absolute;
-            top: 50%; left: 90%;
-            transform: translate(-50%,-50%);
+           margin-top: 65px;
             cursor: pointer;
             font-size: 24px;
         
@@ -270,6 +348,17 @@ font-weight: bold;
         }
 
 
+
+
+
+.contain-search-panel h1, h2{
+    font-size: 6vw;
+    line-height: 5.5vw;
+}
+
+
+
+
 /* 4. Message */ 
 
 .contain-message {
@@ -293,13 +382,86 @@ border-bottom-left-radius: 5px;
 }
 
 
+
+/* 5. About */
+
+.contain-about {
+    background-color: #fff;
+    color: #222630;
+    font-weight: 300 !important;
+}
+
+.contain-about h3, h4 {
+    font-weight: 300 !important;
+}
+
+.contain-about i{
+font-size: 40px;
+border-bottom: 1px solid #fff;
+padding-bottom: 5px;
+}
+
+
+.contact-digital-salon {
+    height: 40px;
+    line-height: 40px;
+    background-color: #D6A47C;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-digital-salon-desktop {
+    height: 60px;
+    line-height: 60px;
+    background-color: #222630;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+    
+}
+
+.contain-sponsors{
+    background-color: #fff;
+    color: #222630;
+    font-weight: 300 !important;
+}
+
+.contain-sponsors h3 {
+    font-weight: 300 !important;
+}
+
+.contain-sponsors i{
+font-size: 40px;
+border-bottom: 1px solid #fff;
+padding-bottom: 5px;
+}
+
+.example-img {
+    width: 70%;
+}
+
+.desktop-bolt {
+    color: #11C4E8;
+}
+
+
+.ds-logo-desktop {
+    width: 60%;
+}
+
+
+
+
  
 
 /* Media Queries */
 @media (max-width: 767.98px) { 
 
 .screenshot {
-    width: 90%;
+    width: 98%;
+    margin: 0 auto;
+    height: 90%;
 }
 
 .contain-info{

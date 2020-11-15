@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <!--JQuery UI CSS-->
+    <!--JQuery-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ==" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
@@ -23,15 +23,16 @@
 
 <body>
 
+    <!--HEADER-->
 
         <!--Mobile Header-->
-        <div class="container-fluid mobile-header  p-0">
+        <div class="container-fluid mobile-header mt-2 d-block d-lg-none">
             <div class="row">
-                <div class="col-6">
+                <div class="col-10">
                     <a href="/">  <img src="/assets/images/sos3.png" class="logo mx-auto ml-3" alt="Support-Our-Salons-Logo"></a>
                 </div>
-                <div class="col-6 text-center text-blue contain-burger">
-                    <i class="fas fa-bars mobile-menu-burger"></i>
+                <div class="col-2 text-center text-blue ml-auto">
+                    <i class="fas fa-bars mobile-menu-burger mr-auto"></i>
                 </div>
             </div>
         </div>
@@ -63,24 +64,32 @@
         </div>
 
 
+    <!---->
 
-
-
-
-    <div class="container-fluid">
-   
-   
-
-        <div class="col-12 mx-auto text-center choose-county-bar-mobile">
-            <div class="row">
-               <div class="col-12 support-local-mobile-text text-center">#SupportLocal</div>
-               <div class="col-12 mb-4">
-               <div class="select-county-btn-mobile text-center mx-auto" data-toggle="modal" data-target="#countyModal">Select A County <i class="fas fa-angle-down ml-3"></i></div>
-             </div>
-            </div> 
+    <!--DESKTOP HEADER-->
+    <div class="container contain-desktop-header d-none d-lg-block">
+        <div class="row">
+            <div class="col-12 text-center mt-3">
+                <a href="/">  <img src="/assets/images/sos3.png" class="logo mx-auto" alt="Support-Our-Salons-Logo"></a>
             </div>
+          
+        </div>
+        <div class="row">
+        </div>
+            <div class="col-12 text-center mt-4 remove-padding">
+              <div class="contain-desktop-menu text-center">
+            <a href="/"><div class="menu-desktop-item mx-auto d-inline">HOME</div></a>
+              <div class="menu-desktop-item mx-auto d-inline">ABOUT</div>
+              <div class="menu-desktop-item mx-auto d-inline" data-toggle="modal" data-target="#countyModal">FIND A LOCAL SHOP</div>
+              <a href="/contact.html"><div class="menu-desktop-item mx-auto d-inline border-right-0">ADD A SALON</div></a>
+
+            </div>
+            </div>
+        </div>
+    </div>
 
 
+        <!--MODAL FOR COUNTY SELECTION-->
         <div class="modal fade" id="countyModal" tabindex="-1" aria-labelledby="countyModal" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
@@ -153,20 +162,128 @@
 
 
 </div>
-    
 
+<!--Top Panel Desktop-->
+<div class="container mt-3 d-none d-lg-block">
+    <div class="row">
+        <div class="col-6 contain-search-panel pt-5 pb-5 pl-5 contain-top-panel ">
+        <h1>Support</h1>
+        <h1 class="pl-5">Local</h1>
+        </div>
+        <div class="col-6 contain-search-btn text-center contain-top-panel">
+      
+            <div class="select-county-btn-desktop text-center" data-toggle="modal" data-target="#countyModal">Select A County <i class="fas fa-angle-down ml-3"></i></div>
+        </div>
+    </div>
+</div>
+
+<!--Top Panel Mobile-->
+<div class="container mt-3 d-block d-lg-none">
+    <div class="row">
+        <div class="col-12 contain-search-panel pt-5 pb-5 text-center contain-top-panel ">
+        <h1>Support Local</h1>
+        </div>
+        <div class="col-12 contain-search-btn text-center contain-top-panel">
+            <div class="select-county-btn-mobile mb-5 text-center" data-toggle="modal" data-target="#countyModal">Select A County <i class="fas fa-angle-down ml-3"></i></div>
+        </div>
+    </div>
+</div>
+    
+    
+    <!--Output Salons (Random on load)-->
     <div class="container contain-salon-cards mt-5">
         <div class="row">
-            <div class="col-12 text-center mt-2 mb-2" id="resultstotal"></div>
+            <div class="col-12 text-center mt-2 mb-4" id="resultstotal"></div>
         </div>
         <div class="row" id="container-row">
         </div>
     </div>
 
+    <!--Mobile about and sponsors-->
+
+    <!--ABout-->
+    <div class="container-fluid p-0 contain-about d-block d-lg-none"> 
+        <div class="col-12 text-center"><img src="/assets/images/example.png" class="example-img">
+            <img src="/assets/images/dslogomob.png" class="ds-logo-desktop">
+        </div>
+            <div class="col-12 text-center pt-4">
+                <i class="fas fa-bolt"></i>
+            </div>
+            <div class="col-12 mt-4 text-center pb-4 pr-4 pl-4">
+                <h4>Support Our Salons is powered by <strong>Digital Salon</strong>. We provide award winning websites and ‘Shortcuts’ salon software to the hair and beauty sector. We partner with Hair Salons, Beauty Salons, Nail Bars, Clinics, MUA’s, Barbers and Spa’s and help them build & manage their digital presence.</h4>
+            </div>
+            <div class="col-12 mt-3 text-center pb-4">
+               <a href="https://digitalsalongroup.com/" target="_blank"><div class="contact-digital-salon-desktop text-center">GET ONLINE TODAY!</div></a> 
+            </div>
+    </div>
+
+        <!--sponsors-->
+        <div class="container-fluid p-0 contain-sponsors d-block d-lg-none">     
+            <div class="col-12 text-center pt-4 mb-3">
+                <h3>Kindly Sponsored By</h3>
+            </div>
+            <div class="row">
+            <div class="col-6 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+            <div class="col-6 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+            <div class="col-6 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+            <div class="col-6 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+        </div>
+    </div>
+
+        <!--Desktop about and sponsors-->
+        <div class="container d-none d-lg-block">
+            <hr/>
+            <div class="row">
+            <div class="col-6 text-right pr-5 pt-5"><img src="/assets/images/example.png" class="example-img">
+                <img src="/assets/images/dslogomob.png" class="ds-logo-desktop">
+            </div>
+            <div class="col-6 pl-5 mt-3  pt-5">
+                <h3>Powered By Digital Salon <i class="fas fa-bolt pl-3 desktop-bolt"></i>
+                </h3>
+                <hr/>
+                <h4>Support Our Salons is powered by <strong>Digital Salon</strong>. We provide award winning websites and ‘Shortcuts’ salon software to the hair and beauty sector. We partner with Hair Salons, Beauty Salons, Nail Bars, Clinics, MUA’s, Barbers and Spa’s and help them build & manage their digital presence.
+                </h4>
+                <a href="https://digitalsalongroup.com/" target="_blank"> <div class="contact-digital-salon-desktop text-center">GET ONLINE TODAY!</div></a>
+            </div>
+            </div>
+        </div>
+
+        <!--sponsors-->
+        <div class="container-fluid p-0 contain-sponsors d-none d-lg-block mt-5 d-none d-lg-block">     
+            <div class="col-12 text-center pt-4 mb-3">
+                <h3>Kindly Sponsored By</h3>
+            </div>
+            <div class="row">
+            <div class="col-3 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+            <div class="col-3 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+            <div class="col-3 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+            <div class="col-3 mt-5 text-center">
+                <i class="fab fa-accusoft"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 <a href="/contact.html">
-<div class="contain-message">
-NOTHING IN YOUR AREA?
-</div></a>
+
 
 
 
