@@ -185,7 +185,7 @@ font-weight: bold;
 
 
 .contain-location{
-    width: 25%;
+    width: 30%;
     text-align: right;
     margin: 0 auto;
     font-size: 14px;
@@ -202,7 +202,7 @@ font-weight: bold;
         text-align: center;
         border-radius: 3px;
         width: 90%;
-        margin: 0 auto;
+        margin: 0;
 
     }
  
@@ -474,15 +474,16 @@ padding-bottom: 5px;
 }
 
 .contain-info{
-    max-width: 45%;
-    min-width: 45%;
+    max-width: 50%;
+    min-width: 50%;
     text-align: left;
     margin: 0 auto;
     font-weight: bold;
+    
     }
 
     .contain-location{
-        width: 45%;
+        width: 50%;
         text-align: right;
         margin: 0 auto;
     
