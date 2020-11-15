@@ -55,7 +55,7 @@ position:relative;
 
 .choose-county-bar-mobile {
     width: 100%;
-    background-color: #222630;
+  
     position:relative;
     color: #fff;
 
@@ -75,12 +75,7 @@ position: relative;
         color: #fff;
         cursor: pointer;
         border-radius: 10px;
-        position: absolute;
-          top: 50%;
-          right: 5%;
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          font-size: 30px;
+        margin: 0 auto;
         }
 
 .select-county-btn-mobile {
@@ -96,7 +91,13 @@ margin: 0 auto;
 
 }
 
-#resultstotal {
+
+.contain-salon-cards {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.resultstotal {
     
     font-weight: bold;
 }
@@ -143,7 +144,7 @@ font-weight: 300;
 
 
 .contain-top-panel {
-    background-color: #21252A;
+ 
     color: #fff;
 }
 
@@ -452,8 +453,15 @@ padding-bottom: 5px;
 }
 
 
+@media (max-width: 992) { 
+ 
+    .contain-salon-cards {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
 
 
+}
  
 
 /* Media Queries */
@@ -483,3 +491,5 @@ padding-bottom: 5px;
     
 
  }
+
+ 
