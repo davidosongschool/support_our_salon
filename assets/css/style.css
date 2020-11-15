@@ -8,6 +8,7 @@
 **/
 
 
+
 /* 0. Generics */
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&display=swap');
@@ -459,9 +460,9 @@ padding-bottom: 5px;
 @media (max-width: 767.98px) { 
 
 .screenshot {
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
-    height: 90%;
+    height: 80%;
 }
 
 .contain-info{
