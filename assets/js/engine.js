@@ -101,6 +101,48 @@ function displayData(data, county) {
 }
 
 
+function prov(prov){
+
+
+// GET DATA //
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+    displayData(JSON.parse(this.responseText), prov);
+
+    }
+};
+// set url based on selected trending item
+xhr.open("GET", "assets/database/data.json");
+xhr.send();
+    
+function displayData(data, prov) {
+    console.log("function called");
+    shop = data;
+    document.getElementById("container-row").innerHTML = '';
+    document.getElementById("resultstotal").innerHTML = '';
+    shopsfound = 0;
+    numofshops = 0;
+
+    for (i=0; i < shop.shops.length; i++) {
+        if (shop.shops[i].Area.includes(prov)) {
+        numofshops++;    
+        shopsfound = 1;
+        document.getElementById("container-row").innerHTML += '<div class="col-12 col-md-6 col-lg-4 contain-salon mt-3 dublin"><a href="' + shop.shops[i].Link + '"><img src="' + shop.shops[i].Image + '" alt="' + shop.shops[i].Name +'" class="screenshot shadow-sm"></a><div class="contain-info mt-3 d-inline-block p-0">' + shop.shops[i].Name +  '</div><div class="mt-3 contain-location d-inline-block p-0"><div class="county-tag ml-auto">' +  shop.shops[i].County +  '</div></span></div></div>' 
+    } 
+    }
+
+    if (shopsfound != 1){
+        document.getElementById("container-row").innerHTML = '<div class="col-12 text-center">Looks like there are no shops in your area yet</div>';
+    }
+
+
+    document.getElementById("resultstotal").innerHTML = prov
+}
+
+
+
+}
 
 
 // Navigation mobile 
@@ -114,4 +156,25 @@ $(".contain-message").toggle("slide", {direction: "right"}, 100);
 $(".mobile-menu-link").click(function(){
     $(".contain-mobile-menu").toggle("slide", {direction: "left"}, 100);
     $(".contain-message").toggle("slide", {direction: "right"}, 100);
+    });
+
+
+    // Province Navigation 
+
+    $(".leinster-menu").click(function(){
+        $(".select-main-menu").removeClass("blue-underline");
+        $(this).addClass("blue-underline");
+    });
+
+    $(".munster-menu").click(function(){
+        $(".select-main-menu").removeClass("blue-underline");
+        $(this).addClass("blue-underline");
+    });
+    $(".connacht-menu").click(function(){
+        $(".select-main-menu").removeClass("blue-underline");
+        $(this).addClass("blue-underline");
+    });
+    $(".ulster-menu").click(function(){
+        $(".select-main-menu").removeClass("blue-underline");
+        $(this).addClass("blue-underline");
     });

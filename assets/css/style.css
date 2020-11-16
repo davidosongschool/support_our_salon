@@ -15,6 +15,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 
+
+
 a {
 color: inherit;
 text-decoration: none !important;
@@ -57,7 +59,6 @@ position:relative;
 
 .choose-county-bar-mobile {
     width: 100%;
-  
     position:relative;
     color: #fff;
 
@@ -70,10 +71,10 @@ position: relative;
     
 
     .select-county-btn-desktop {
-        width: 300px;
-        height: 60px;
-        line-height: 60px;
-        background-color: rgb(81, 137, 180);
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #E15554;
         color: #fff;
         cursor: pointer;
         border-radius: 10px;
@@ -95,8 +96,8 @@ margin: 0 auto;
 
 
 .contain-salon-cards {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .resultstotal {
@@ -106,8 +107,13 @@ margin: 0 auto;
 
 .contain-desktop-header {
     font-weight: 400;
+   
 }
 
+.contain-desktop-top-row {
+    background-color: #241623;
+}
+    
 
 
 .select-county-text {
@@ -148,8 +154,8 @@ display: none !important;
 
 /* 1. Logo */
 .logo {
-width: 200px;
-height: 200px;
+width: 100px;
+height: 50px;
 }
 
 body {
@@ -157,21 +163,22 @@ font-family: Poppins;
 font-weight: 300;
 
 }
-
-
-.blue-underline 
-{
-    padding-bottom: 10px;
-border-bottom: 2px solid #85BCE7;
-
-}
-
 .lightgrey-underline {
     padding-bottom: 10px;
 border-bottom: 2px solid rgba(173, 173, 173, 0.548);
 
 
 }
+
+
+.blue-underline 
+{
+    padding-bottom: 10px;
+border-bottom: 2px solid #241623;
+
+}
+
+
 .contain-top-panel {
  
     color: #fff;
@@ -226,7 +233,7 @@ font-weight: bold;
 
     .county-tag {
         
-        background-color: rgb(81, 137, 180);
+        background-color: #E15554;
         color: #fff;
         text-align: center;
         border-radius: 3px;
@@ -475,10 +482,31 @@ padding-bottom: 5px;
     color: #11C4E8;
 }
 
+.contain-about-logo {
+    position: relative;
+}
+
 
 .ds-logo-desktop {
-    width: 60%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
+
+
+.contain-about-desktop {
+background-color: #241623;
+color: #fff;
+}
+
+.top-text {
+    font-size: 12px;
+}
+
+
 
 
 @media (max-width: 992px) { 
