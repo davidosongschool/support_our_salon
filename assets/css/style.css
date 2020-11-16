@@ -137,6 +137,15 @@ font-size: 24px;
 }
 
 
+.insta-feed {
+width: 90vw;
+height: 400px;
+}
+
+.crt-logo {
+display: none !important;
+}
+
 /* 1. Logo */
 .logo {
 width: 200px;
