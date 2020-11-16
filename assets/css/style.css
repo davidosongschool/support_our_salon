@@ -37,6 +37,10 @@ body {
 
 }
 
+.text-black {
+    color: #000;
+}
+
 
 .row {
 margin: 0;
@@ -96,8 +100,8 @@ margin: 0 auto;
 
 
 .contain-salon-cards {
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 220px;
+    padding-right: 220px;
 }
 
 .resultstotal {
@@ -274,7 +278,7 @@ font-weight: bold;
         display: none;
         position: fixed;
         z-index: 199999999 !important;
-        background-color: #222630;
+        background-color: #241623;
         color: #fff !important;
         position: fixed;
 
@@ -293,7 +297,22 @@ font-weight: bold;
 
 
     .mobile-header {
-        border-bottom: 1px solid #EFCDCF;
+        background-color: #241623 !important;
+        
+    }
+    
+    .contain-mobile-menu-icon {
+    display: relative;
+   
+    }
+
+    .mobile-icon {
+        position: absolute;
+        top: 50%;
+        left: 10%;
+      -ms-transform: translate(-50%);
+      transform: translate(-50%);
+     
     }
 
     .powered-by {
@@ -320,6 +339,7 @@ font-weight: bold;
            margin-top: 65px;
             cursor: pointer;
             font-size: 24px;
+            color: #fff;
         
         }
 
@@ -422,9 +442,24 @@ border-bottom-left-radius: 5px;
 
 /* 5. About */
 
+.about-logo-mobile {
+    margin-top: 30px;
+    height: 100px;
+    width: 240px;
+}
+
+.insta-icon {
+    font-size: 25px;
+    color: #E15554;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
 .contain-about {
-    background-color: #fff;
-    color: #222630;
+    background-color: #241623;
+    color: #fff;
     font-weight: 300 !important;
 }
 

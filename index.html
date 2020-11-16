@@ -26,16 +26,17 @@
     <!--HEADER-->
 
         <!--Mobile Header-->
-        <div class="container-fluid mobile-header mt-2 d-block d-lg-none">
+        <div class="container-fluid mobile-header d-block d-lg-none">
             <div class="row">
-                <div class="col-10">
-                    <a href="index.html">  <img src="assets/images/sos3.png" class="logo mx-auto ml-3" alt="Support-Our-Salons-Logo"></a>
+                <div class="col-10 contain-mobile-menu-icon">
+                    <a href="index.html">  <img src="assets/images/sos3.png" class="logo mx-auto ml-3 mobile-icon" alt="Support-Our-Salons-Logo"></a>
                 </div>
                 <div class="col-2 text-center text-blue ml-auto">
                     <i class="fas fa-bars mobile-menu-burger mr-auto"></i>
                 </div>
             </div>
         </div>
+
     
         <!--Mobile Menu-->
         <div class="contain-mobile-menu shadow-sm">
@@ -74,9 +75,8 @@
             </div>
           
         </div>
-        <div class="row">
-        </div>
-            <div class="col-12 text-center mt-4 remove-padding">
+      
+            <div class="col-12 text-center mt-4 remove-padding d-none d-lg-block">
               <div class="contain-desktop-menu text-center">
             <a href="/"><div class="menu-desktop-item mx-auto d-inline home-menu select-main-menu lightgrey-underline blue-underline">Home</div></a>
            <div class="menu-desktop-item mx-auto d-inline leinster-menu select-main-menu lightgrey-underline" onclick="prov('Leinster')">Leinster</div></button>
@@ -88,6 +88,30 @@
             </div>
         </div>
     </div>
+
+ <!--MODAL FOR PROVINCE SELECTION-->
+ <div class="modal fade" id="provModal" tabindex="-1" aria-labelledby="provModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <button class="pick leinster-menu select-main-menu" onclick="prov('Leinster')" data-dismiss="modal">Leinster</button>
+          <hr/>
+          <button class="pick  munster-menu select-main-menu " onclick="prov('Munster')" data-dismiss="modal">Munster</button>
+          <hr/>
+          <button class="pick connacht-menu select-main-menu " onclick="prov('Connacht')" data-dismiss="modal">Connacht</button>
+          <hr/>
+          <button class="pick select-main-menu ulster-menu" onclick="prov('Ulster')" data-dismiss="modal">Ulster</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
 
         <!--MODAL FOR COUNTY SELECTION-->
@@ -178,6 +202,23 @@
 </div>
 
 <!--Top Panel Mobile-->
+<div class="container-fluid mt-3 d-bloack d-lg-none">
+    <div class="row">
+        <div class="col-12 text-center mt-4 mb-3"><h5><strong>Choose An Area</h5></strong></div>
+        <div class="col-12 text-center mb-4 mx-auto">
+          <p class="top-text">Support your local salon is an initiative to help direct customers to buy products online through a local salon. To find a salon near you with an online shop, use one of the above categories or chose a county below.</p>  
+        </div>
+        <div class="col-12 contain-search-btn text-center contain-top-panel">
+            <div class="select-county-btn-desktop text-center" data-toggle="modal" data-target="#provModal">Select A Region <i class="fas fa-angle-down ml-3"></i></div>
+            <h4 class="pt-3 pb-3 text-black">OR</h4>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--Top Panel Mobile-->
 <div class="container-fluid mt-1 d-block d-lg-none">
     <div class="row">
         <div class="col-12 contain-search-btn text-center contain-top-panel">
@@ -202,15 +243,12 @@
     <!--About-->
     <div class="container-fluid p-0 contain-about d-block d-lg-none"> 
         <div class="col-12 text-center">
-            <img src="assets/images/dslogoabout.png" class="ds-logo-desktop">
+           <a href="https://digitalsalongroup.com/" target="_blank"><img src="assets/images/dslogoabout.png" class="about-logo-mobile"></a>
         </div>
-            <div class="col-12 text-center pt-4">
-                <i class="fas fa-bolt"></i>
-            </div>
             <div class="col-12 mt-4 text-center pb-4 pr-4 pl-4">
                 <h3>What is Support Your Local Salon?</i>
                 </h3>
-                <p>As a supporter of the Salon & Spa Industry in Ireland, Digital Salon have come up with an initiative to encourage clients to support their local salon. https://supportyourlocalsalon.ie is a website
+                <p>As a supporter of the Salon & Spa Industry in Ireland, Digital Salon have come up with an initiative to encourage clients to support their local salon. Support Your Local Salon is a website
                     setup and maintained by Digital Salon to promote Salons who are selling products online. The website is non-profit making and is free of charge for Salons who want to list their online Shop. Visitors
                     to the site will be able to search for the nearest Salon selling products online and click into their online shop.
                      
@@ -219,9 +257,7 @@
                     Digital Salon are the only company in the country specialising in helping Salons and Spas with their online presence. It’s hoped that by launching and promoting this new website, Digital Salon can
                     give something back to the industry by encouraging people all over the country to ‘Support their local Salon’.</p>
             </div>
-            <div class="col-12 mt-3 text-center pb-4">
-               <a href="https://digitalsalongroup.com/" target="_blank"><div class="contact-digital-salon-desktop text-center">GET ONLINE TODAY!</div></a> 
-            </div>
+        
     </div>
 
         <!--sponsors-->
@@ -256,7 +292,7 @@
                 <h3>What is Support Your Local Salon?</i>
                 </h3>
                 <hr/>
-                As a supporter of the Salon & Spa Industry in Ireland, Digital Salon have come up with an initiative to encourage clients to support their local salon. https://supportyourlocalsalon.ie is a website
+                As a supporter of the Salon & Spa Industry in Ireland, Digital Salon have come up with an initiative to encourage clients to support their local salon. Support Your Local Salon is a website
                 setup and maintained by Digital Salon to promote Salons who are selling products online. The website is non-profit making and is free of charge for Salons who want to list their online Shop. Visitors
                 to the site will be able to search for the nearest Salon selling products online and click into their online shop.
                  
@@ -271,6 +307,7 @@
 
         <div class="container mt-5">
             <div class="row">
+                <div class="col-12 text-center insta-icon"><a href="https://www.instagram.com/digitalsalongroup/" target="_blank">@digitalsalongroup</a></div>
                 <div class="col-12">
                     <div id="pixlee_container">
                        <!-- Place <div> tag where you want the feed to appear -->
