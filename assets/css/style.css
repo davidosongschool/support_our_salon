@@ -11,7 +11,9 @@
 
 /* 0. Generics */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
 
 a {
 color: inherit;
@@ -71,7 +73,7 @@ position: relative;
         width: 300px;
         height: 60px;
         line-height: 60px;
-        background-color: #0FA3B1;
+        background-color: rgb(81, 137, 180);
         color: #fff;
         cursor: pointer;
         border-radius: 10px;
@@ -82,7 +84,7 @@ position: relative;
 width: 300px;
 height: 60px;
 line-height: 60px;
-background-color: #0FA3B1;
+background-color: rgb(81, 137, 180);
 color: #fff;
 cursor: pointer;
 border-radius: 10px;
@@ -129,20 +131,38 @@ font-size: 24px;
 
 }
 
+.sponsors-logo {
+    width: 150px;
+    height: 100px;
+}
+
 
 /* 1. Logo */
 .logo {
-width: 210px;
-height: 130px;
+width: 200px;
+height: 200px;
 }
 
 body {
-font-family: Lato;
+font-family: Poppins;
 font-weight: 300;
 
 }
 
 
+.blue-underline 
+{
+    padding-bottom: 10px;
+border-bottom: 2px solid #85BCE7;
+
+}
+
+.lightgrey-underline {
+    padding-bottom: 10px;
+border-bottom: 2px solid rgba(173, 173, 173, 0.548);
+
+
+}
 .contain-top-panel {
  
     color: #fff;
@@ -197,7 +217,7 @@ font-weight: bold;
 
     .county-tag {
         
-        background-color: #222630;
+        background-color: rgb(81, 137, 180);
         color: #fff;
         text-align: center;
         border-radius: 3px;
@@ -206,6 +226,7 @@ font-weight: bold;
 
     }
  
+
 
     /* Desktop Menu */
     .desktop-menu {
@@ -224,9 +245,8 @@ font-weight: bold;
 
     .menu-desktop-item {
         width: 200px;
-        border-right: 1px solid lightgrey;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
         cursor: pointer;
     }
 
@@ -246,8 +266,7 @@ font-weight: bold;
     }
 
     .contain-desktop-menu {
-        border-top: 1px solid lightgrey;
-        border-bottom: 1px solid lightgrey;
+  
         padding-top: 10px;
         padding-bottom: 10px;
       
@@ -353,7 +372,7 @@ font-weight: bold;
 
 
 
-.contain-search-panel h1, h2{
+.contain-search-panel{
     font-size: 6vw;
     line-height: 5.5vw;
 }
