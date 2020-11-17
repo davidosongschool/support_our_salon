@@ -454,7 +454,7 @@ text-align: center;
 position: fixed;
 top: 90vh;
 right: 0;
-background-color: #D6A47C;
+background-color: #5BC196;
 color: #fff;
 border: none;
 border-top-left-radius: 5px;
@@ -466,9 +466,9 @@ z-index: 199999999999999 !important;
 
 .contain-message:hover{
 background-color: #fff;
-border: 2px solid #D6A47C;
+border: 2px solid #5BC196;
 border-right: none;
-color: #D6A47C;
+color: #3E3A3C;
 } 
 
 
@@ -586,6 +586,9 @@ color: #fff;
     margin-right: 10px;
 }
 
+.xpert-logo {
+    width:7%;
+}
 
 
 
@@ -636,6 +639,10 @@ color: #fff;
     
         .sponsors-logo {
             width: 70%;}
+
+            .xpert-logo {
+                width: 50%;
+            }
 
             .modal {
                 margin-top: 100px;
