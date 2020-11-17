@@ -142,8 +142,16 @@ font-size: 24px;
 }
 
 .sponsors-logo {
-    width: 150px;
-    height: 100px;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.contain-sponsor-logo {
+    contain: relative;
 }
 
 
@@ -277,6 +285,7 @@ font-weight: bold;
         width: 300px;
         display: none;
         position: fixed;
+        top: 80px;
         z-index: 199999999 !important;
         background-color: #241623;
         color: #fff !important;
@@ -303,7 +312,12 @@ font-weight: bold;
     
     .contain-mobile-menu-icon {
     display: relative;
+    height: 40px;
    
+    }
+
+    .mobile-push-content  {
+        margin-top: 80px;
     }
 
     .mobile-icon {
@@ -325,6 +339,12 @@ font-weight: bold;
     }
 
 
+    .mobile-header {
+        position: fixed !important;
+        top: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
 
     .mob-menu-logo {
@@ -332,14 +352,20 @@ font-weight: bold;
     }
 
 
-
+    .contain-burger-icon {
+        height: 80px;
+        position: relative;
+    }
 
         
         .mobile-menu-burger {
-           margin-top: 65px;
+           
             cursor: pointer;
             font-size: 24px;
             color: #fff;
+            position: absolute;
+            top: 50%; 
+            transform: translate(-50%);
         
         }
 
@@ -361,9 +387,10 @@ font-weight: bold;
         
 
         .mobile-header {
-            height: 150px;
+            height: 80px;
             background-color: #fff;
             z-index: 1999999 !important;
+            position: relative;
         }
 
         .desktop-header {
@@ -419,7 +446,7 @@ font-weight: bold;
 /* 4. Message */ 
 
 .contain-message {
-width: 250px;
+width: 150px;
 height: 60px;
 line-height: 60px;
 text-align: center;
@@ -428,9 +455,22 @@ top: 90vh;
 right: 0;
 background-color: #D6A47C;
 color: #fff;
+border: none;
 border-top-left-radius: 5px;
 border-bottom-left-radius: 5px;
+cursor: pointer;
+z-index: 199999999999999 !important;
+
 }
+
+.contain-message:hover{
+background-color: #fff;
+border: 2px solid #D6A47C;
+border-right: none;
+color: #D6A47C;
+} 
+
+
    
  
 .modal-body {
@@ -541,6 +581,10 @@ color: #fff;
     font-size: 14px;
 }
 
+.crt-grid-post {
+    margin-right: 10px;
+}
+
 
 
 
@@ -580,6 +624,8 @@ color: #fff;
     
         }
     
+        .sponsors-logo {
+            width: 70%;}
     
 
  }
