@@ -22,15 +22,15 @@
 </head>
 
 <body>
-  <!--HEADER-->
+    <!--HEADER-->
 
         <!--Mobile Header-->
-        <div class="container-fluid mobile-header d-block d-lg-none">
-            <div class="row">
+        <div class="container-fluid fixed-top mobile-header d-block d-lg-none">
+            <div class="row fixed-top mobile-header ">
                 <div class="col-10 contain-mobile-menu-icon">
-                    <a href="index.html">  <img src="assets/images/sos3.png" class="logo mx-auto ml-3 mobile-icon" alt="Support-Our-Salons-Logo"></a>
+                    <a href="index.html">  <img src="assets/images/sos4.png" class="mobile-logo mx-auto ml-3 mobile-icon" alt="Support-Our-Salons-Logo"></a>
                 </div>
-                <div class="col-2 text-center text-blue ml-auto">
+                <div class="col-2 contain-burger-icon text-center text-blue ml-auto">
                     <i class="fas fa-bars mobile-menu-burger mr-auto"></i>
                 </div>
             </div>
@@ -53,7 +53,7 @@
                     <hr class="m-0 p-0" style="color: #E7B0B3;"/>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mobile-menu-link mr-5" href="#">
+                    <a class="nav-link mobile-menu-link mr-5" href="#about">
                        About Us
                     </a>
                     <hr class="m-0 p-0" style="color: #E7B0B3;"/>
@@ -61,6 +61,10 @@
             </ul>
             <div class="col-12 text-center mt-5"><span><strong>Can't find a salon near you?</strong></span><a href="contact.html"><div class="mt-3 submit-a-salon-btn">CLICK HERE</div></a></div>
           
+        </div>
+
+        <div class="mobile-push-content d-block d-lg-none">
+
         </div>
 
 
@@ -78,7 +82,10 @@
             <div class="col-12 text-center mt-4 remove-padding d-none d-lg-block">
               <div class="contain-desktop-menu text-center">
             <a href="/"><div class="menu-desktop-item mx-auto d-inline home-menu select-main-menu lightgrey-underline blue-underline">Home</div></a>
-           
+           <div class="menu-desktop-item mx-auto d-inline leinster-menu select-main-menu lightgrey-underline" onclick="prov('Leinster')">Leinster</div></button>
+              <div class="menu-desktop-item mx-auto d-inline munster-menu select-main-menu lightgrey-underline" onclick="prov('Munster')">Munster</div>
+              <div class="menu-desktop-item mx-auto d-inline connacht-menu select-main-menu lightgrey-underline" onclick="prov('Connacht')">Connacht</div>
+              <div class="menu-desktop-item mx-auto d-inline border-right-0 select-main-menu ulster-menu lightgrey-underline" onclick="prov('Ulster')">Ulster</div>
 
             </div>
             </div>

@@ -599,6 +599,15 @@ color: #fff;
 
 }
  
+@media (min-width: 1600px) { 
+    .contain-salon-cards {
+        padding-left: 300px !important;
+        padding-right:300px !important;
+    }
+
+
+} 
+
 
 /* Media Queries */
 @media (max-width: 767.98px) { 
