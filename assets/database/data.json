@@ -328,7 +328,7 @@
             "County": "Dublin, Kildare",
             "Area": "Leinster",
             "Link": "https://gerardpaul.ie/shop/",
-            "Image": "assets/images/salons/exhale.png"
+            "Image": "assets/images/salons/gp.png"
         },
         {
             "Name": "The Graduate Hair Salon",
@@ -392,6 +392,13 @@
             "Area": "Leinster",
             "Link": "https://parislover.ie/shop/",
             "Image": "assets/images/salons/paris.png"
+        },
+        {
+            "Name": "Enhance Make Up & Beauty",
+            "County": "Donegal",
+            "Area": "Ulster",
+            "Link": "https://enhancebeautyspecialist.ie/shop/",
+            "Image": "assets/images/salons/enhance.png"
         }
      
     ]
