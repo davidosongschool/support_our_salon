@@ -55,7 +55,7 @@ margin: 0;
 .choose-county-bar {
 height: 100px;
 width: 100%;
-background-color: #222630;
+background-color: #5AC196;
 position:relative;
 }
 
@@ -78,7 +78,7 @@ position: relative;
         width: 200px;
         height: 40px;
         line-height: 40px;
-        background-color: #E15554;
+        background-color: #5AC196;
         color: #fff;
         cursor: pointer;
         border-radius: 10px;
@@ -115,7 +115,7 @@ margin: 0 auto;
 }
 
 .contain-desktop-top-row {
-    background-color: #241623;
+    background-color: #3E3A3C;
 }
     
 
@@ -166,8 +166,13 @@ display: none !important;
 
 /* 1. Logo */
 .logo {
-width: 100px;
+width: 350px;
+height: 100px;
+}
+
+.mobile-logo {
 height: 50px;
+width: 50px;
 }
 
 body {
@@ -186,7 +191,7 @@ border-bottom: 2px solid rgba(173, 173, 173, 0.548);
 .blue-underline 
 {
     padding-bottom: 10px;
-border-bottom: 2px solid #241623;
+border-bottom: 2px solid #5AC196;
 
 }
 
@@ -245,7 +250,7 @@ font-weight: bold;
 
     .county-tag {
         
-        background-color: #E15554;
+        background-color: #5AC196;
         color: #fff;
         text-align: center;
         border-radius: 3px;
@@ -287,7 +292,7 @@ font-weight: bold;
         position: fixed;
         top: 80px;
         z-index: 199999999 !important;
-        background-color: #241623;
+        background-color: #3E3A3C;
         color: #fff !important;
         position: fixed;
 
@@ -306,7 +311,7 @@ font-weight: bold;
 
 
     .mobile-header {
-        background-color: #241623 !important;
+        background-color: #3E3A3C !important;
         
     }
     
@@ -426,7 +431,7 @@ font-weight: bold;
             width: 70%;
             height: 40px;
             line-height: 40px;
-            background-color: #D6A47C;
+            background-color: #5AC196;
             color: #fff;
             margin: 0 auto;
         }
@@ -490,7 +495,7 @@ color: #D6A47C;
 
 .insta-icon {
     font-size: 25px;
-    color: #E15554;
+    color: #5AC196;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -498,7 +503,7 @@ color: #D6A47C;
 }
 
 .contain-about {
-    background-color: #241623;
+    background-color: #3E3A3C;
     color: #fff;
     font-weight: 300 !important;
 }
@@ -573,7 +578,7 @@ padding-bottom: 5px;
 
 
 .contain-about-desktop {
-background-color: #241623;
+background-color: #3E3A3C;
 color: #fff;
 }
 
