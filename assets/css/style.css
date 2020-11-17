@@ -605,8 +605,14 @@ color: #fff;
 @media (min-width: 1600px) { 
     .contain-salon-cards {
         padding-left: 300px !important;
-        padding-right:300px !important;
+        padding-right: 300px !important;
     }
+
+    @media (min-width: 1900px) { 
+        .contain-salon-cards {
+            padding-left: 400px !important;
+            padding-right: 400px !important;
+        }
 
 
 } 
