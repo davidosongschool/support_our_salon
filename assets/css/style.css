@@ -15,7 +15,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 
-
+body {
+overflow-x: hidden;
+}
 
 a {
 color: inherit;
@@ -24,7 +26,7 @@ text-decoration: none !important;
 
 
 a:hover {
-color: #222630;
+color: rgb(202, 199, 199);
 }
 
 body {
@@ -444,6 +446,8 @@ font-weight: bold;
 
 
 
+
+
 /* 4. Message */ 
 
 .contain-message {
@@ -452,7 +456,7 @@ height: 60px;
 line-height: 60px;
 text-align: center;
 position: fixed;
-top: 90vh;
+top: 80vh;
 right: 0;
 background-color: #5BC196;
 color: #fff;
@@ -591,6 +595,18 @@ color: #fff;
 }
 
 
+#privacy-policy-bar {
+    width: 100vw;
+    height: 30px;
+    background-color: #3E3A3C;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
 
 @media (max-width: 992px) { 
  
@@ -627,6 +643,11 @@ color: #fff;
     height: 80%;
 }
 
+#privacy-policy-bar  {
+
+    font-size: 8px;
+}
+
 .contain-info{
     max-width: 50%;
     min-width: 50%;
@@ -657,4 +678,4 @@ color: #fff;
 
  }
 
- 
+}

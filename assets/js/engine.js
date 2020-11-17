@@ -13,6 +13,19 @@ $(".contain-salon").addClass('d-none');
 $("." + county).removeClass('d-none');
 }
 
+// Set Privacy Bar Content 
+
+
+
+let d = new Date();
+let n = d.getFullYear();
+n = n.toString();
+console.log(n);
+
+document.getElementById("privacy-policy-bar").innerHTML = '© Copyright - ' + n + ' | All Rights Reserved | Built by <a href="https://digitalsalongroup.com/">Digital Salon</a> | <a href="/privacy.html">Privacy Policy</a>';
+
+
+
 
 random();
 
