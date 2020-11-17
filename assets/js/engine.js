@@ -5,7 +5,7 @@ let numofshops;
 
 let munster = ["Clare", "Cork", "Kerry", "Limerick", "Tipperary", "Waterford"];
 let leinster = ["Carlow", "Dublin", "Kildare", "Kilkenny", "Laois", "Longford", "Louth", "Meath", "Offaly", "Westmeath", "Wexford", "Wicklow"];
-let ulster = ["Donegal"];
+let ulster = ["Donegal", "Monaghan", "Derry", "Tyrone", "Armagh", "Fermanagh", "Cavan", "Down", "Antrim"];
 let connacht = ["Galway", "Leitrim", "Mayo", "Roscommon", "Sligo"];
 
 function selectCounty(county) {
@@ -100,11 +100,39 @@ function displayData(data, county) {
         document.getElementById("container-row").innerHTML = '<div class="col-12 text-center">Looks like there are no shops in your county yet!</div><div class="col-12 mt-4 text-center"><h4>Check out shops in your region!</h4></div>';
         
         // GET PROVINCE COUNTY IS IN
+
+        let found = 0;
+        while (found == 0){
+
+            for(i=0; i<munster.length; i++) {
+                if (munster[i] == county) {
+                    found = 1;
+                    area = "Munster";
+                }
+            }
+            for(i=0; i<leinster.length; i++) {
+                if (leinster[i] == county) {
+                    found = 1;
+                    area = "Leinster";
+                }
+            }
+            for(i=0; i<ulster.length; i++) {
+                if (ulster[i] == county) {
+                    found = 1;
+                    area = "Ulster";
+                }
+            }
+            for(i=0; i<connacht.length; i++) {
+                if (connacht[i] == county) {
+                    found = 1;
+                    area = "Connacht";
+                }
+            }
+
+
+        }
         
 
-        if (county == 'Clare') {
-            area = "Munster";
-        }
        
         // OUTPUT PROVINCE DATA IF NO SHOP IN COUNTY
 
