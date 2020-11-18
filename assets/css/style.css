@@ -597,16 +597,26 @@ color: #fff;
 
 #privacy-policy-bar {
     width: 100vw;
-    height: 30px;
+
     background-color: #3E3A3C;
     color: #fff;
     position: relative;
     bottom: 0;
-    line-height: 30px;
+   padding-bottom: 5px;
     text-align: center;
     font-size: 12px;
 }
 
+
+
+.social-list li i{
+    font-size: 40px;
+}
+
+.contain-footer {
+    background-color: #3E3A3C;
+    color: #fff;
+}
 
 @media (max-width: 992px) { 
  
@@ -645,7 +655,7 @@ color: #fff;
 
 #privacy-policy-bar  {
 
-    font-size: 8px;
+    font-size: 4px !important;
 }
 
 .contain-info{
