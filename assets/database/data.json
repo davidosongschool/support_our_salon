@@ -59,7 +59,7 @@
         },
         {
             "Name": "La Mode Hair & Beauty",
-            "County": "Dublin, Meath",
+            "County": "Dublin",
             "Area": "Leinster",
             "Link": "https://lamode.ie/shop/",
             "Image": "assets/images/salons/lamode.png"
@@ -108,8 +108,8 @@
         },
         {
             "Name": "Vaughan Reid",
-            "County": "Dublin",
-            "Area": "Leinster",
+            "County": "Limerick",
+            "Area": "Munster",
             "Link": "https://vaunreid.com/shop/",
             "Image": "assets/images/salons/vaun.png"
         },
@@ -325,7 +325,7 @@
         },
         {
             "Name": "Gerard Paul Hairdressing",
-            "County": "Dublin, Kildare",
+            "County": "Dublin",
             "Area": "Leinster",
             "Link": "https://gerardpaul.ie/shop/",
             "Image": "assets/images/salons/gp.png"
@@ -344,13 +344,7 @@
             "Link": "https://fuchsiahairandbeautyboutique.com/shop/",
             "Image": "assets/images/salons/fuchsia.png"
         },
-        {
-            "Name": "Tangles Hair Design",
-            "County": "Kildare",
-            "Area": "Leinster",
-            "Link": "https://tangleshairdesignclane.com/shop/",
-            "Image": "assets/images/salons/tangles.png"
-        },
+
         {
             "Name": "Collab Hair & Makeup",
             "County": "Tipperary", 
@@ -382,7 +376,7 @@
         {
             "Name": "Anna Danielle Hair & Beauty",
             "County": "Kilkenny",
-            "Area": "Leinster",
+            "Area": "Munster",
             "Link": "https://annadanielles.ie/anna-danielles-shop/",
             "Image": "assets/images/salons/anna.png"
         },
@@ -399,7 +393,90 @@
             "Area": "Ulster",
             "Link": "https://enhancebeautyspecialist.ie/shop/",
             "Image": "assets/images/salons/enhance.png"
-        }
-     
+        },
+        {
+            "Name": "Sitstil",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://sitstil.ie/sitstil-shop/",
+            "Image": "assets/images/salons/sitstil.png"
+        },
+        {
+            "Name": "Elaine's Beauty Care",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://elainesbeautycare.com/shop/",
+            "Image": "assets/images/salons/elaines.png"
+        },  
+         {
+            "Name": "A Nu U",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://anuu.ie/product-category/dermalogica/",
+            "Image": "assets/images/salons/anuu.png"
+        },
+        {
+            "Name": "The Hair Room",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://thehairroom.ie/products/",
+            "Image": "assets/images/salons/hairroom.png"
+        },  
+        {
+            "Name": "Biofresh Skincare",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.biofreshskincare.ie/shop-online/biofresh-range/new-arrivals.html",
+            "Image": "assets/images/salons/biofresh.png"
+        },  
+        {
+            "Name": "L'Avenue",
+            "County": "Meath",
+            "Area": "Leinster",
+            "Link": "https://lavenue.ie/shop/",
+            "Image": "assets/images/salons/lavenue.png"
+        },  
+        {
+            "Name": "Ikon Hair",
+            "County": "Cork",
+            "Area": "Munster",
+            "Link": "https://ikonhair.ie/shop-front",
+            "Image": "assets/images/salons/ikon.png"
+        },  
+        {
+            "Name": "Neeba",
+            "County": "Kildare",
+            "Area": "Leinster",
+            "Link": "https://neeba.ie/shop/",
+            "Image": "assets/images/salons/neeba.png"
+        }, 
+        {
+            "Name": "Rustiq salon",
+            "County": "Kilkenny",
+            "Area": "Leinster",
+            "Link": "https://www.rustiqsalon.com/shop/",
+            "Image": "assets/images/salons/rustiq.png"
+        }, 
+        {
+            "Name": "Ruby Reds",
+            "County": "Kilkenny",
+            "Area": "Leinster",
+            "Link": "https://rubyreds.ie/shop/",
+            "Image": "assets/images/salons/rubyreds.png"
+        }, 
+        {
+            "Name": "Manoo Massage & Beauty",
+            "County": "Wexford",
+            "Area": "Leinster",
+            "Link": "https://manoomassageandbeauty.ie/shop",
+            "Image": "assets/images/salons/manoo.png"
+        },
+        {
+            "Name": "Hi-Tec Hair Salon",
+            "County": "Tyrone",
+            "Area": "Ulster",
+            "Link": "https://hitechair.co.uk/shop/",
+            "Image": "assets/images/salons/hitec.png"
+        }     
     ]
 }
