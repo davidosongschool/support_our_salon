@@ -638,10 +638,8 @@ color: #fff;
         .contain-salon-cards {
             padding-left: 400px !important;
             padding-right: 400px !important;
-        }
-
-
-} 
+        }}
+    }
 
 
 /* Media Queries */
@@ -682,10 +680,9 @@ color: #fff;
             }
 
             .modal {
-                margin-top: 100px;
+                margin-top: 100px !important;
             }
     
 
  }
 
-}
