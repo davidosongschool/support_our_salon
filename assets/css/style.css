@@ -168,6 +168,19 @@ width: 350px;
 height: 100px;
 }
 
+.logo-mobile {
+    width: 230px;
+    height: 70px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+
+
+
+}
+
 .mobile-logo {
 height: 50px;
 width: 70px;
@@ -311,6 +324,7 @@ font-weight: bold;
     .mobile-header {
         background-color: #3E3A3C !important;
         
+
     }
     
     .contain-mobile-menu-icon {
@@ -325,11 +339,16 @@ font-weight: bold;
 
     .mobile-icon {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 10%;
       -ms-transform: translate(-50%);
       transform: translate(-50%);
      
+    }
+
+    .mobile-title {
+   line-height: 80px !important;
+   font-size: 18px !important;
     }
 
     .powered-by {
@@ -364,11 +383,9 @@ font-weight: bold;
         .mobile-menu-burger {
            
             cursor: pointer;
-            font-size: 24px;
+            font-size: 18px;
             color: #fff;
-            position: absolute;
-            top: 50%; 
-            transform: translate(-50%);
+            line-height: 80px;
         
         }
 
