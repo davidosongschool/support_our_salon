@@ -477,6 +477,14 @@
             "Area": "Ulster",
             "Link": "https://hitechair.co.uk/shop/",
             "Image": "assets/images/salons/hitec.jpeg"
-        }     
+        },
+        {
+            "Name": "Ross Adams Hair and Beauty",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://rossadamshairandbeauty.com/shop-main/",
+            "Image": "assets/images/salons/ross.jpeg"
+        }
+        
     ]
 }
