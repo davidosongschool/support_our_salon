@@ -47,7 +47,7 @@ function random(){
     shop = data;
 
     document.getElementById("container-row").innerHTML = '';
-    document.getElementById("resultstotal").innerHTML = 'Some of our shops <button class="unstyle-btn" onclick="random()"><i class="fas fa-retweet"></i></button>';
+    document.getElementById("resultstotal").innerHTML = 'Shuffe Shops <button class="unstyle-btn" onclick="random()"><i class="fas fa-retweet"></i></button>';
 
 
 
