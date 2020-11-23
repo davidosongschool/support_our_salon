@@ -483,8 +483,58 @@
             "County": "Dublin",
             "Area": "Leinster",
             "Link": "https://rossadamshairandbeauty.com/shop-main/",
-            "Image": "assets/images/salons/ross.jpeg"
+            "Image": "assets/images/salons/ross.jpg"
+        },
+        {
+            "Name": "Manycures & Makeup",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "http://manycuresandmakeup.ie/shop/",
+            "Image": "assets/images/salons/jemma.jpg"
+        },
+        {
+            "Name": "Shirley's Beauty & Laser Clinic",
+            "County": "Cork",
+            "Area": "Munster",
+            "Link": "https://www.shirleysbeautyclinic.com/beauty-and-skincare-products-cork/",
+            "Image": "assets/images/salons/shirley.jpg"
+        },
+        {
+            "Name": "Allure Beauty and Nail Spa",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://allurebeautyandspa.com/shop/",
+            "Image": "assets/images/salons/allurebeauty.jpg"
+        },
+        {
+            "Name": "Plush Hair",
+            "County": "Waterford",
+            "Area": "Munster",
+            "Link": "https://plushhair.ie/shop/",
+            "Image": "assets/images/salons/plush.jpg"
+        },
+        {
+            "Name": "Glamour Eyes Beauty Lounge",
+            "County": "Donegal",
+            "Area": "Ulster",
+            "Link": "https://www.glamoureyes.ie/collections/products",
+            "Image": "assets/images/salons/glamour.jpg"
+        },
+        {
+            "Name": "Wayne lloyd Hair",
+            "County": "Cork",
+            "Area": "Munster",
+            "Link": "https://www.waynelloydhair.com/collections/all",
+            "Image": "assets/images/salons/wayne.jpg"
+        },
+         {
+            "Name": "Calm Beauty",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://calmbeauty.ie/shop/",
+            "Image": "assets/images/salons/calmbeauty.jpg"
         }
+
         
     ]
 }
