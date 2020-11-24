@@ -533,6 +533,55 @@
             "Area": "Leinster",
             "Link": "https://calmbeauty.ie/shop/",
             "Image": "assets/images/salons/calmbeauty.jpg"
+        },
+        {
+            "Name": "River Holistic Centre",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://riverholistic.ie/shop/",
+            "Image": "assets/images/salons/riverholistic.jpg"
+        },
+        {
+            "Name": "Olivia's Hair Studio",
+            "County": "Wicklow",
+            "Area": "Leinster",
+            "Link": "https://oliviashairstudio.com/store/",
+            "Image": "assets/images/salons/olivia.jpg"
+        },
+        {
+            "Name": "Rosanna Crothers Beauty Salon",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://shop.phorest.com/businesses/cyJYA0xLKu0dATVFfWQOlQ/branches/tKpzGk__5UtiDT_MRiBYeQ/products",
+            "Image": "assets/images/salons/rosanna.jpg"
+        },
+        {
+            "Name": "Momento Hairdressing",
+            "County": "Galway",
+            "Area": "Connacht",
+            "Link": "https://www.momentohair.com/shop/",
+            "Image": "assets/images/salons/momento.jpg"
+        },
+        {
+            "Name": "Butterfly Beauty Plaza",
+            "County": "Carlow",
+            "Area": "Leinster",
+            "Link": "https://butterflybeautyplaza.ie/shop/",
+            "Image": "assets/images/salons/butterflybeauty.jpg"
+        },
+        {
+            "Name": "The Hair Lounge",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://thehairloungeswords.ie/shop-online/",
+            "Image": "assets/images/salons/hairlounge.jpg"
+        },
+        {
+            "Name": "The Buff Day Spa",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.thebuffdayspa.com/shop/",
+            "Image": "assets/images/salons/buff.jpg"
         }
 
         
