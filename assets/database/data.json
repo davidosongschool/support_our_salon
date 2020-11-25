@@ -582,7 +582,22 @@
             "Area": "Leinster",
             "Link": "https://www.thebuffdayspa.com/shop/",
             "Image": "assets/images/salons/buff.jpg"
+        },
+        {
+            "Name": "Ella Beauty Salon",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://ellebeauty.ie/",
+            "Image": "assets/images/salons/ella.jpg"
+        },
+        {
+            "Name": "Opium Skin & Beauty",
+            "County": "Offaly",
+            "Area": "Leinster",
+            "Link": "https://skinandbeauty.ie/",
+            "Image": "assets/images/salons/opium.jpg"
         }
+
 
         
     ]
