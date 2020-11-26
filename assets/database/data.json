@@ -596,6 +596,90 @@
             "Area": "Leinster",
             "Link": "https://skinandbeauty.ie/",
             "Image": "assets/images/salons/opium.jpg"
+        },
+        {
+            "Name": "MeToMe",
+            "County": "Cork",
+            "Area": "Munster",
+            "Link": "https://metome.ie/",
+            "Image": "assets/images/salons/metome.jpg"
+        },
+        {
+            "Name": "V2 Hair Design",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.v2hairdesign.ie/shop",
+            "Image": "assets/images/salons/v2.jpg"
+        },
+        {
+            "Name": "Village Visions Hair and Beauty",
+            "County": "Meath",
+            "Area": "Leinster",
+            "Link": "https://villagevisionshairandbeauty.ie/shop/",
+            "Image": "assets/images/salons/villagev.jpg"
+        },
+        {
+            "Name": "Phoenix Skincare and Laser Clinic",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://shop.phorest.com/businesses/PSXd0WV_PjeFCBY5DpNtAw/branches/AIcTC_jYrEV5VZjjmObHeg/products",
+            "Image": "assets/images/salons/phoenix.jpg"
+        },
+        {
+            "Name": "Ómra Beauty",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://shop.phorest.com/businesses/ucmBiBY0LJnTLbpJCxTLpQ/branches/W5UsNnbOlP2Yh37t4O7Msg/products",
+            "Image": "assets/images/salons/omra.jpg"
+        },
+        {
+            "Name": "Hair Republic",
+            "County": "Galway",
+            "Area": "Connacht",
+            "Link": "https://www.hairrepublic.ie/shop-1",
+            "Image": "assets/images/salons/hairrepublic.jpg"
+        },
+        {
+            "Name": "The Hair and Beauty Chalet",
+            "County": "Leitrim",
+            "Area": "Connacht",
+            "Link": "https://www.thehairandbeautychalet.ie/shop",
+            "Image": "assets/images/salons/chalet.jpg"
+        },
+        {
+            "Name": "Cocoon Spa & Wellness",
+            "County": "Wexford",
+            "Area": "Leinster",
+            "Link": "https://shop.phorest.com/businesses/y-K-UlDF6-XjezB7BXNWaA/branches/42A_esyXrQ_F6CRB9rn47g/products",
+            "Image": "assets/images/salons/cocoon.jpg"
+        },
+        {
+            "Name": "Roches Barbers",
+            "County": "Kildare",
+            "Area": "Leinster",
+            "Link": "https://rochesbarbers.ie/store/",
+            "Image": "assets/images/salons/roches.jpg"
+        },
+        {
+            "Name": "The Unique Escape",
+            "County": "Wexford",
+            "Area": "Leinster",
+            "Link": "https://theuniqueescape.com/collections/all",
+            "Image": "assets/images/salons/unique.jpg"
+        },
+        {
+            "Name": "Cryosculpt",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.cryosculpt.ie/online-store/",
+            "Image": "assets/images/salons/cryo.jpg"
+        },
+        {
+            "Name": "Colour Republic",
+            "County": "Westmeath",
+            "Area": "Leinster",
+            "Link": "https://www.colourrepublic.ie/shop/",
+            "Image": "assets/images/salons/colourrepublic.jpg"
         }
 
 
