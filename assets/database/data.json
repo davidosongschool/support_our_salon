@@ -680,9 +680,42 @@
             "Area": "Leinster",
             "Link": "https://www.colourrepublic.ie/shop/",
             "Image": "assets/images/salons/colourrepublic.jpg"
+        },
+        {
+            "Name": "Fresh Images",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://freshimages.ie/shop-online/",
+            "Image": "assets/images/salons/fresh.jpg"
+        },
+        {
+            "Name": "Revive Clinic",
+            "County": "Laois",
+            "Area": "Leinster",
+            "Link": "https://revivebeautysalon.ie/shop/",
+            "Image": "assets/images/salons/revive.jpg"
+        },
+        {
+            "Name": "Dublin Body Paint",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://dublinbodypaint.com/shop/",
+            "Image": "assets/images/salons/dublinbody.jpg"
+        },
+        {
+            "Name": "Lemons Beauty Salon",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.lemons.ie/shop-online/",
+            "Image": "assets/images/salons/lemons.jpg"
+        },
+        {
+            "Name": "Femme Fatale",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.femmefatale.ie/collections/all",
+            "Image": "assets/images/salons/femme.jpg"
         }
 
-
-        
     ]
 }

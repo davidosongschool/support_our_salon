@@ -81,6 +81,18 @@ function random(){
 
 function search(county) {
 
+// Push Data to Google Analytics 
+
+var dataObject = {
+    'event': 'searched_salon',
+    'category': 'click',
+    'label': 'label_searched_salon'
+  };
+  if(typeof dataLayer != 'undefined'){
+    dataLayer.push(dataObject);
+    console.log(dataObject); // For debugging
+  }
+
 // GET DATA //
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
@@ -190,6 +202,16 @@ function displayData(data, county) {
 
 function prov(prov){
 
+    var dataObject = {
+        'event': 'searched_salon',
+        'category': 'click',
+        'label': 'label_searched_salon'
+      };
+      if(typeof dataLayer != 'undefined'){
+        dataLayer.push(dataObject);
+        console.log(dataObject); // For debugging
+      }
+    
 
 // GET DATA //
 var xhr = new XMLHttpRequest();
