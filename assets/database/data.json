@@ -331,6 +331,13 @@
             "Image": "assets/images/salons/gp.jpeg"
         },
         {
+            "Name": "Gerard Paul Hairdressing",
+            "County": "Kildare",
+            "Area": "Leinster",
+            "Link": "https://gerardpaul.ie/shop/",
+            "Image": "assets/images/salons/gp.jpeg"
+        },
+        {
             "Name": "The Graduate Hair Salon",
             "County": "Dublin",
             "Area": "Leinster",
@@ -715,7 +722,118 @@
             "Area": "Leinster",
             "Link": "https://www.femmefatale.ie/collections/all",
             "Image": "assets/images/salons/femme.jpg"
+        },
+        {
+            "Name": "Hillary.ie",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://hillary.ie/shop",
+            "Image": "assets/images/salons/hillary.jpg"
+        },
+        {
+            "Name": "In Vogue Skin & Beauty",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.invogue.ie/shop",
+            "Image": "assets/images/salons/invogue.jpg"
+        },
+        {
+            "Name": "Essential Beauty Skin & Laser",
+            "County": "Cavan",
+            "Area": "Ulster",
+            "Link": "https://www.essentialbeautyskinandlaser.ie/shop-online/",
+            "Image": "assets/images/salons/essentials.jpg"
+        },
+        {
+            "Name": "V-Styles",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://v-styles.ie/shop/",
+            "Image": "assets/images/salons/vstyle.jpg"
+        },
+        {
+            "Name": "Only Beauty Salon",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://www.onlybeauty.ie/shop",
+            "Image": "assets/images/salons/only.jpg"
+        },
+        {
+            "Name": "Oasis Beauty",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "http://oasisbeauty.ie/giftvouchers.html",
+            "Image": "assets/images/salons/oasis.jpg"
+        },
+        {
+            "Name": "Hairloom by Serena Norton",
+            "County": "Westmeath",
+            "Area": "Leinster",
+            "Link": "https://www.hairloom.ie/shop/",
+            "Image": "assets/images/salons/hairloom.jpg"
+        },
+        {
+            "Name": "Beauty by Katrina",
+            "County": "Cork",
+            "Area": "Munster",
+            "Link": "https://beautybykatrina.ie/skincare-and-beauty-products/",
+            "Image": "assets/images/salons/katrina.jpg"
+        },
+        {
+            "Name": "Beautorium Beauty Salon",
+            "County": "Waterford",
+            "Area": "Munster",
+            "Link": "https://www.beautorium.ie/shop",
+            "Image": "assets/images/salons/beautorium.jpg"
+        },
+        {
+            "Name": "Sultan Barber",
+            "County": "Cork",
+            "Area": "Munster",
+            "Link": "https://www.sultanbarbers.ie/shop/",
+            "Image": "assets/images/salons/sultan.jpg"
+        },
+        {
+            "Name": "Kopa",
+            "County": "Kildare",
+            "Area": "Leinster",
+            "Link": "https://www.kopa.ie/shop",
+            "Image": "assets/images/salons/kopa.jpg"
+        },
+        {
+            "Name": "Core Hair & Beauty",
+            "County": "Tipperary",
+            "Area": "Munster",
+            "Link": "https://coresalon.ie/shop-front/",
+            "Image": "assets/images/salons/core.jpg"
+        },
+        {
+            "Name": "The Tan Fairy",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://thetanfairykingswood.myshopify.com/",
+            "Image": "assets/images/salons/tanfairy.jpg"
+        },
+        {
+            "Name": "Chique",
+            "County": "Mayo",
+            "Area": "Connacht",
+            "Link": "https://www.chique.ie/environ-skincare-shop",
+            "Image": "assets/images/salons/chique.jpg"
+        },
+        {
+            "Name": "Denises",
+            "County": "Wexford",
+            "Area": "Leinster",
+            "Link": "https://denisesbeautyclinic.ie/shop-brands/",
+            "Image": "assets/images/salons/denises.jpg"
+        },
+        {
+            "Name": "Lunatic Fringe",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://shop.phorest.com/businesses/YSSDvbSEpwg7ZQSaA0kvMQ/branches/gF18UW6zJWt72yHyyuy-5g/products",
+            "Image": "assets/images/salons/lunatic.jpg"
         }
-
     ]
 }
