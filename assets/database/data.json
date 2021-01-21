@@ -834,6 +834,48 @@
             "Area": "Leinster",
             "Link": "https://shop.phorest.com/businesses/YSSDvbSEpwg7ZQSaA0kvMQ/branches/gF18UW6zJWt72yHyyuy-5g/products",
             "Image": "assets/images/salons/lunatic.jpg"
+        },
+        {
+            "Name": "Rinn Neimhe Beauty Salon",
+            "County": "Leitrim",
+            "Area": "Connacht",
+            "Link": "https://www.rinnneimhe.ie/shop/",
+            "Image": "assets/images/salons/rinn.jpg"
+        },
+        {
+            "Name": "Diana Macaria",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://dmhealthandbeauty.ie/shop/",
+            "Image": "assets/images/salons/diana.jpg"
+        },
+        {
+            "Name": "Petals Hair and Beauty Ltd",
+            "County": "Mayo",
+            "Area": "Connacht",
+            "Link": "https://www.petals.ie/categories",
+            "Image": "assets/images/salons/petals.jpg"
+        },
+        {
+            "Name": "OB-1 Hair",
+            "County": "Kildare",
+            "Area": "Leinster",
+            "Link": "https://www.ob1hair.ie/shop",
+            "Image": "assets/images/salons/ob1.jpg"
+        },
+        {
+            "Name": "Elmes Skincare Clinic",
+            "County": "Dublin",
+            "Area": "Leinster",
+            "Link": "https://elmeselectrolysis.com/skincare-shop/",
+            "Image": "assets/images/salons/elmes.jpg"
+        },
+        {
+            "Name": "Sarah Mason Professional",
+            "County": "Galway",
+            "Area": "Connacht",
+            "Link": "https://sarahmasonprofessional.com/pages/my-smp-shop-collections",
+            "Image": "assets/images/salons/sarahmason.png"
         }
     ]
 }
